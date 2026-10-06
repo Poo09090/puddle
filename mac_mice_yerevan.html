@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ru" class="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Обзор Bluetooth-мышей для MacBook до 6500 AMD в Ереване</title>
+  <!-- Cute Leopard SVG Favicon & Touch Icon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36' fill='none'%3E%3Cpath d='M6 12 C 4 4, 12 6, 12 10 Z' fill='%23cbd5e1' stroke='%23475569' stroke-width='1.2' stroke-linejoin='round'/%3E%3Cpath d='M30 12 C 32 4, 24 6, 24 10 Z' fill='%23cbd5e1' stroke='%23475569' stroke-width='1.2' stroke-linejoin='round'/%3E%3Cpath d='M7 10 C 6 6, 10 7, 10 9 Z' fill='%23ffffff'/%3E%3Cpath d='M29 10 C 30 6, 26 7, 26 9 Z' fill='%23ffffff'/%3E%3Cellipse cx='18' cy='20' rx='13' ry='11' fill='%23f1f5f9' stroke='%23475569' stroke-width='1.3'/%3E%3Ccircle cx='13' cy='14' r='1.2' fill='%2364748b'/%3E%3Ccircle cx='18' cy='13' r='1.4' fill='%2364748b'/%3E%3Ccircle cx='23' cy='14' r='1.2' fill='%2364748b'/%3E%3Cellipse cx='9.5' cy='19' rx='1.2' ry='2' fill='%2364748b' transform='rotate(-15 9.5 19)'/%3E%3Cellipse cx='26.5' cy='19' rx='1.2' ry='2' fill='%2364748b' transform='rotate(15 26.5 19)'/%3E%3Cellipse cx='13' cy='18' rx='2' ry='2.5' fill='%230284c7'/%3E%3Cellipse cx='23' cy='18' rx='2' ry='2.5' fill='%230284c7'/%3E%3Ccircle cx='12.3' cy='17' r='0.7' fill='%23ffffff'/%3E%3Ccircle cx='22.3' cy='17' r='0.7' fill='%23ffffff'/%3E%3Cellipse cx='18' cy='23.5' rx='4.5' ry='3.2' fill='%23ffffff'/%3E%3Cpath d='M16.5 22 L 19.5 22 L 18 23.8 Z' fill='%23475569'/%3E%3Cpath d='M18 23.8 L 18 25.5 M 16.2 25.5 C 17 26.5, 19 26.5, 19.8 25.5' stroke='%23475569' stroke-width='1.1' stroke-linecap='round'/%3E%3C/svg%3E">
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    :root {
+      --bg-main: #f8fafc;
+      --card-bg: #ffffff;
+      --card-border: rgba(226, 232, 240, 0.9);
+      --accent-blue: #0284c7;
+    }
+    body {
+      background-color: var(--bg-main);
+      color: #0f172a;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, sans-serif;
+      min-height: 100vh;
+      /* Snow Leopard Rosettes Spots Background Pattern */
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Cg fill='%2364748b' fill-opacity='0.15'%3E%3Cpath d='M25 22c-3-4-8-2-10 1s0 8 4 9 9-2 9-6-1-3-3-4zm-8 11c-4 1-6 6-4 9s7 2 8-2-1-6-4-7zm13 2c-2-3-7-1-8 2s2 7 5 7 6-2 5-6-1-2-2-3z'/%3E%3Cpath d='M105 32c-4-2-9 0-10 4s2 8 8-3 7-7-1-4-3-5zm-9 12c-3 2-4 7-2 9s6 1 7-3-2-5-5-6zm14-1c-1-4-6-4-8-1s0 7 4 7 6-2 5-5-1-1-1-1z'/%3E%3Cpath d='M55 95c-3-4-9-2-10 2s1 8 5 8 8-2 8-6-1-3-3-4zm-10 11c-3 1-5 6-3 9s7 2 8-1-1-7-5-8zm14 1c-2-3-7-1-8 2s2 7 5 7 6-2 5-6-1-2-2-3z'/%3E%3Cpath d='M135 105c-3-4-9-2-10 2s1 8 5 8 8-2 8-6-1-3-3-4zm-10 11c-3 1-5 6-3 9s7 2 8-1-1-7-5-8zm14 1c-2-3-7-1-8 2s2 7 5 7 6-2 5-6-1-2-2-3z'/%3E%3Ccircle cx='45' cy='28' r='2.5'/%3E%3Ccircle cx='120' cy='40' r='2'/%3E%3Ccircle cx='70' cy='102' r='2.5'/%3E%3Ccircle cx='150' cy='112' r='2'/%3E%3C/g%3E%3C/svg%3E");
+    }
+    .light-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
+      transition: all 0.25s ease;
+    }
+    .light-card-hover:hover {
+      border-color: rgba(2, 132, 199, 0.4);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px -5px rgba(2, 132, 199, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+    }
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f5f9;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #0284c7;
+    }
+  </style>
+</head>
+<body class="p-4 md:p-10 antialiased">
+  <div class="max-w-6xl mx-auto space-y-8">
+
+    <!-- Header Section -->
+    <header class="light-card rounded-3xl p-6 md:p-10 relative overflow-hidden border border-slate-200/90 shadow-sm">
+      <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
+        
+        <!-- Left Info & Title -->
+        <div class="space-y-3 max-w-2xl">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-50 border border-sky-200/80 text-xs font-semibold text-sky-700 tracking-wide uppercase">
+            <svg class="w-3.5 h-3.5 fill-current text-sky-600" viewBox="0 0 24 24">
+              <path d="M12 2L15 8L22 9L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9L9 8L12 2Z"/>
+            </svg>
+            macOS Compatibility Guide • Ереван 2026
+          </div>
+
+          <div class="flex items-center gap-4">
+            <!-- Restored Cute Snow Leopard Face Icon Container -->
+            <div class="w-14 h-14 rounded-2xl bg-slate-100 border border-slate-200/80 flex items-center justify-center shrink-0 shadow-inner p-1">
+              <svg class="w-10 h-10" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Ears -->
+                <path d="M6 12 C 4 4, 12 6, 12 10 Z" fill="#cbd5e1" stroke="#475569" stroke-width="1.2" stroke-linejoin="round"/>
+                <path d="M30 12 C 32 4, 24 6, 24 10 Z" fill="#cbd5e1" stroke="#475569" stroke-width="1.2" stroke-linejoin="round"/>
+                <path d="M7 10 C 6 6, 10 7, 10 9 Z" fill="#ffffff"/>
+                <path d="M29 10 C 30 6, 26 7, 26 9 Z" fill="#ffffff"/>
+                <!-- Head -->
+                <ellipse cx="18" cy="20" rx="13" ry="11" fill="#f1f5f9" stroke="#475569" stroke-width="1.3"/>
+                <!-- Spots -->
+                <circle cx="13" cy="14" r="1.2" fill="#64748b"/>
+                <circle cx="18" cy="13" r="1.4" fill="#64748b"/>
+                <circle cx="23" cy="14" r="1.2" fill="#64748b"/>
+                <ellipse cx="9.5" cy="19" rx="1.2" ry="2" fill="#64748b" transform="rotate(-15 9.5 19)"/>
+                <ellipse cx="26.5" cy="19" rx="1.2" ry="2" fill="#64748b" transform="rotate(15 26.5 19)"/>
+                <!-- Eyes -->
+                <ellipse cx="13" cy="18" rx="2" ry="2.5" fill="#0284c7"/>
+                <ellipse cx="23" cy="18" rx="2" ry="2.5" fill="#0284c7"/>
+                <circle cx="12.3" cy="17" r="0.7" fill="#ffffff"/>
+                <circle cx="22.3" cy="17" r="0.7" fill="#ffffff"/>
+                <!-- Snout -->
+                <ellipse cx="18" cy="23.5" rx="4.5" ry="3.2" fill="#ffffff"/>
+                <path d="M16.5 22 L 19.5 22 L 18 23.8 Z" fill="#475569"/>
+                <path d="M18 23.8 L 18 25.5 M 16.2 25.5 C 17 26.5, 19 26.5, 19.8 25.5" stroke="#475569" stroke-width="1.1" stroke-linecap="round"/>
+              </svg>
+            </div>
+
+            <div>
+              <h1 class="text-2xl md:text-4xl font-extrabold tracking-tight text-slate-900 leading-tight">
+                Bluetooth-мыши для MacBook
+              </h1>
+              <p class="text-slate-500 text-sm md:text-base font-normal mt-1">
+                Подробный разбор лучших моделей до <strong class="text-slate-900 font-semibold">6 500 AMD</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Pill Stats Grid -->
+        <div class="grid grid-cols-2 gap-3 w-full lg:w-auto shrink-0 text-xs">
+          <div class="bg-slate-50 p-3.5 rounded-2xl border border-slate-200 space-y-1">
+            <span class="text-slate-400 block text-[11px]">Лимит цены</span>
+            <span class="text-emerald-600 font-bold text-sm">≤ 6 500 AMD</span>
+          </div>
+          <div class="bg-slate-50 p-3.5 rounded-2xl border border-slate-200 space-y-1">
+            <span class="text-slate-400 block text-[11px]">Подключение</span>
+            <span class="text-sky-600 font-bold text-sm">Bluetooth 5.0+ LE</span>
+          </div>
+          <div class="bg-slate-50 p-3.5 rounded-2xl border border-slate-200 space-y-1">
+            <span class="text-slate-400 block text-[11px]">Локация</span>
+            <span class="text-slate-700 font-medium text-sm">Ереван & WB/Ozon</span>
+          </div>
+          <div class="bg-slate-50 p-3.5 rounded-2xl border border-slate-200 space-y-1">
+            <span class="text-slate-400 block text-[11px]">Стандарт Mac</span>
+            <span class="text-amber-600 font-bold text-sm">0.5с Авто-сон</span>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- Bluetooth Notice Card -->
+    <div class="light-card rounded-2xl p-4 md:p-5 border-l-4 border-l-sky-500 flex items-start gap-4 text-xs md:text-sm">
+      <div class="w-8 h-8 rounded-xl bg-sky-100 border border-sky-200 text-sky-600 flex items-center justify-center shrink-0 mt-0.5 font-bold">
+        💡
+      </div>
+      <div class="space-y-1 leading-relaxed text-slate-600">
+        <strong class="text-slate-900 font-medium">Главный критерий: Чистый Bluetooth без USB-адаптеров</strong>
+        <p>
+          В MacBook Air и Pro нет стандартных портов USB-A. Все представленные мыши работают по <span class="text-sky-700 font-medium">протоколу Bluetooth 5.0+ LE</span> — подключаются напрямую к macOS без переходников и моментально выходят из режима сна.
+        </p>
+      </div>
+    </div>
+
+    <!-- Search & Filters Toolbar -->
+    <div class="light-card rounded-2xl p-4 flex flex-col md:flex-row items-center justify-between gap-4">
+      <!-- Search Input -->
+      <div class="relative w-full md:w-80">
+        <input type="text" id="searchInput" placeholder="Поиск по названию или магазину..." 
+               class="w-full bg-slate-50 border border-slate-200 text-slate-900 text-xs rounded-xl pl-9 pr-4 py-2.5 focus:outline-none focus:border-sky-500 focus:bg-white transition-colors placeholder:text-slate-400">
+        <svg class="w-4 h-4 text-slate-400 absolute left-3 top-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+        </svg>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="flex flex-wrap items-center gap-2 w-full md:w-auto">
+        <button onclick="filterMice('all')" id="btn-all" class="filter-btn px-3.5 py-2 rounded-xl text-xs font-semibold bg-sky-600 text-white transition-all shadow-sm">
+          Все модели (5)
+        </button>
+        <button onclick="filterMice('rechargeable')" id="btn-rechargeable" class="filter-btn px-3.5 py-2 rounded-xl text-xs font-medium bg-slate-100 text-slate-600 hover:bg-slate-200 border border-slate-200 transition-all">
+          🔋 Type-C Аккумулятор
+        </button>
+        <button onclick="filterMice('silent')" id="btn-silent" class="filter-btn px-3.5 py-2 rounded-xl text-xs font-medium bg-slate-100 text-slate-600 hover:bg-slate-200 border border-slate-200 transition-all">
+          🤫 Бесшумные клики
+        </button>
+      </div>
+
+      <!-- Sort Dropdown -->
+      <div class="flex items-center gap-2 shrink-0 text-xs text-slate-500">
+        <span>Сортировка:</span>
+        <select id="sortSelect" onchange="sortMice()" class="bg-slate-50 border border-slate-200 text-slate-800 rounded-xl px-3 py-2 focus:outline-none focus:border-sky-500">
+          <option value="rating">По рейтингу Mac ★</option>
+          <option value="price-market-asc">Цена маркетплейсы (дешевле)</option>
+          <option value="price-store-asc">Цена магазины Еревана (дешевле)</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Mice Grid View -->
+    <div id="miceContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Loaded dynamically via JS -->
+    </div>
+
+    <!-- Matrix Table Section -->
+    <section class="space-y-4">
+      <h2 class="text-base md:text-lg font-bold text-slate-900 flex items-center gap-2">
+        <span class="w-2 h-2 rounded-full bg-sky-500"></span>
+        Сводная таблица цен и характеристик
+      </h2>
+
+      <div class="light-card rounded-2xl overflow-x-auto border border-slate-200">
+        <table class="w-full text-left text-xs text-slate-600 min-w-[700px]">
+          <thead class="bg-slate-50 text-[11px] uppercase tracking-wider text-slate-500 border-b border-slate-200">
+            <tr>
+              <th class="py-3.5 px-5 font-semibold">Устройство</th>
+              <th class="py-3.5 px-5 font-semibold">Цена WB / Ozon</th>
+              <th class="py-3.5 px-5 font-semibold">Магазины Еревана</th>
+              <th class="py-3.5 px-5 font-semibold">Bluetooth</th>
+              <th class="py-3.5 px-5 font-semibold">Питание</th>
+              <th class="py-3.5 px-5 font-semibold">Mac Оценка</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-100" id="matrixTableBody">
+            <!-- Populated via JS -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- macOS Optimization Guide -->
+    <section class="light-card rounded-3xl p-6 md:p-8 space-y-6">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-2xl bg-sky-50 border border-sky-200 text-sky-600 flex items-center justify-center font-bold">
+          ⚡
+        </div>
+        <div>
+          <h2 class="text-base md:text-lg font-bold text-slate-900">Идеальная адаптация мыши под macOS</h2>
+          <p class="text-xs text-slate-500">3 бесплатные утилиты для плавной работы колесика и боковых кнопок</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200 space-y-2">
+          <div class="font-bold text-sky-700 flex items-center gap-2">
+            <span class="w-5 h-5 rounded-md bg-sky-200/80 text-sky-800 text-[11px] flex items-center justify-center font-extrabold">1</span>
+            MacMouseFix (Бесплатно)
+          </div>
+          <p class="text-slate-600 leading-relaxed">
+            Исправляет инверсию направления колесика мыши относительно трекпада. Делает прокрутку инерционной и назначает на боковые кнопки жест переключения рабочих столов.
+          </p>
+        </div>
+
+        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200 space-y-2">
+          <div class="font-bold text-emerald-700 flex items-center gap-2">
+            <span class="w-5 h-5 rounded-md bg-emerald-200/80 text-emerald-800 text-[11px] flex items-center justify-center font-extrabold">2</span>
+            LinearMouse / Mos
+          </div>
+          <p class="text-slate-600 leading-relaxed">
+            Отключает встроенное «ускорение курсора» macOS для сторонних мышей, обеспечивая пиксельную точность позиционирования в графике и коде.
+          </p>
+        </div>
+
+        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200 space-y-2">
+          <div class="font-bold text-amber-700 flex items-center gap-2">
+            <span class="w-5 h-5 rounded-md bg-amber-200/80 text-amber-800 text-[11px] flex items-center justify-center font-extrabold">3</span>
+            BLE Auto-Wake
+          </div>
+          <p class="text-slate-600 leading-relaxed">
+            Протокол Bluetooth 5.0 LE восстанавливает связь при открытии крышки MacBook за <strong class="text-slate-900">0.5 секунды</strong> без ручного перевключения тумблера.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Yerevan Store Breakdown -->
+    <section class="light-card rounded-3xl p-6 md:p-8 space-y-4">
+      <h2 class="text-base md:text-lg font-bold text-slate-900 flex items-center gap-2">
+        <span class="w-2 h-2 rounded-full bg-amber-500"></span>
+        Где купить в Ереване: Сравнение способов покупки
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+        <div class="bg-purple-50/50 p-5 rounded-2xl border border-purple-200 space-y-2">
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-purple-900 text-sm">Маркетплейсы (WB / Ozon Armenia)</span>
+            <span class="px-2.5 py-0.5 rounded-full bg-purple-200 text-purple-800 text-[10px] font-bold">Самая низкая цена</span>
+          </div>
+          <p class="text-slate-600 leading-relaxed">
+            • Доставка 2–4 дня в ПВЗ по Еревану.<br>
+            • Экономия от <strong class="text-slate-900">1 500 до 2 500 AMD</strong> по сравнению с оффлайн ритейлом.<br>
+            • Полный выбор расцветок.
+          </p>
+        </div>
+
+        <div class="bg-orange-50/50 p-5 rounded-2xl border border-orange-200 space-y-2">
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-orange-900 text-sm">Магазины техники в Ереване</span>
+            <span class="px-2.5 py-0.5 rounded-full bg-orange-200 text-orange-800 text-[10px] font-bold">Забрать сегодня</span>
+          </div>
+          <p class="text-slate-600 leading-relaxed">
+            • <strong class="text-slate-900">Сети:</strong> Zigzag.am, Eldorado.am, RV Computers, Compstore.am, Mobile Centre.<br>
+            • Можно проверить эргономику прямо в магазине перед покупкой.<br>
+            • Гарантия 6–12 месяцев на месте.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-[11px] text-slate-400 py-6 border-t border-slate-200">
+      <p>Обзор Bluetooth-мышей для пользователей macOS в Армении • Цены актуальны для Еревана 2026</p>
+    </footer>
+
+  </div>
+
+  <script>
+    const miceData = [
+      {
+        id: 'baseus-f01b',
+        name: 'Baseus F01B Tri-Mode',
+        badge: 'ХИТ ПРОДАЖ • ВЫБОР macOS',
+        badgeClass: 'bg-sky-100 text-sky-800 border-sky-200',
+        priceMarket: 4200,
+        priceStore: 5900,
+        storeList: 'Compstore.am, RV Computers, Mobile Centre',
+        btVersion: 'Bluetooth 5.0 LE / 3.0 / 2.4G',
+        macRating: 4.9,
+        battery: '1x AA батарейка (~12 мес)',
+        dpi: '800 / 1200 / 1600 DPI',
+        silent: true,
+        rechargeable: false,
+        imgUrl: 'https://kotofoto.ru/product_img/2268/656518/656518_mysh_baseus_f01b_tri_mode_baby_pink_b01055503413_00_4m.jpg?v=1712769867',
+        summary: 'Отличный баланс формы и функциональности. Отлично сочетается с корпусами Space Gray и Silver.',
+        pros: ['Мгновенный авто-коннект к Mac после сна', 'Бесшумный мягкий клик', 'Удобный изгиб под ладонь'],
+        cons: ['Питание от пальчиковой батарейки AA']
+      },
+      {
+        id: 'a4tech-fb10c',
+        name: 'A4Tech FStyler FB10C',
+        badge: 'TYPE-C ЗАРЯДКА',
+        badgeClass: 'bg-emerald-100 text-emerald-800 border-emerald-200',
+        priceMarket: 4900,
+        priceStore: 6400,
+        storeList: 'Zigzag.am, Eldorado.am, RV Computers',
+        btVersion: 'Bluetooth 5.1 LE / 3.0 / 2.4G',
+        macRating: 4.9,
+        battery: 'Встроенный Li-ion (Type-C)',
+        dpi: '1200 / 1600 / 2400 DPI',
+        silent: true,
+        rechargeable: true,
+        imgUrl: 'https://avatars.mds.yandex.net/get-mpic/5221826/img_id8911626976484241046.jpeg/orig',
+        summary: 'Практичное решение без сменных батареек. Заряжается напрямую от Type-C кабеля MacBook.',
+        pros: ['Зарядка через порт Type-C', 'Bluetooth 5.1 с минимальным откликом', 'Мульти-связь с 3 устройствами'],
+        cons: ['Чуть более компактный размер']
+      },
+      {
+        id: 'ugreen-mu006',
+        name: 'Ugreen Dual-Mode (MU006)',
+        badge: '4000 DPI RETINA-GRADE',
+        badgeClass: 'bg-purple-100 text-purple-800 border-purple-200',
+        priceMarket: 5200,
+        priceStore: 6500,
+        storeList: 'Compstore.am, AllCell, Ugreen Ереван',
+        btVersion: 'Bluetooth 5.0 LE / 2.4G',
+        macRating: 4.8,
+        battery: '1x AA батарейка',
+        dpi: '1000 / 1600 / 2000 / 4000 DPI',
+        silent: true,
+        rechargeable: false,
+        imgUrl: 'https://avatars.mds.yandex.net/i?id=74baa3206f12cadf5f8060337ceaf44e_l-5284079-images-thumbs&n=13',
+        summary: 'Премиальный матовый пластик и высокая точность 4000 DPI для плавного движения на экранах Retina.',
+        pros: ['Сенсор 4000 DPI для четкости Retina', 'Качественный бархатистый пластик', 'Очень тихий ход клавиш'],
+        cons: ['Цена в магазинах Еревана 6 500 AMD']
+      },
+      {
+        id: 'xiaomi-dual-silent',
+        name: 'Xiaomi Dual Mode Silent',
+        badge: 'СТИЛЬ XIAOMI',
+        badgeClass: 'bg-amber-100 text-amber-800 border-amber-200',
+        priceMarket: 4800,
+        priceStore: 6300,
+        storeList: 'Xiaomi Store Yerevan, Mobile Centre, Eldorado',
+        btVersion: 'Bluetooth 4.2 / 2.4G',
+        macRating: 4.7,
+        battery: '2x AAA батарейки',
+        dpi: '1300 DPI',
+        silent: true,
+        rechargeable: false,
+        imgUrl: 'https://avatars.mds.yandex.net/i?id=7c1b8735488f7108f20614697ad02b01_l-5568204-images-thumbs&n=13',
+        summary: 'Эргономичный дизайн с боковыми клавишами. Органично смотрится рядом с продукцией Apple.',
+        pros: ['Боковые кнопки Вперед/Назад (через MacMouseFix)', 'Удобный упор под палец', 'Бесшумная работа'],
+        cons: ['Bluetooth 4.2 вместо 5.0']
+      },
+      {
+        id: 'rapoo-m100',
+        name: 'Rapoo M100 Silent Multi',
+        badge: 'СВЕРХКОМПАКТНАЯ',
+        badgeClass: 'bg-cyan-100 text-cyan-800 border-cyan-200',
+        priceMarket: 3900,
+        priceStore: 5500,
+        storeList: 'RV Computers, Compstore.am, Vega.am',
+        btVersion: 'Bluetooth 5.0 / 3.0 / 2.4G',
+        macRating: 4.6,
+        battery: '1x AA батарейка (~9 мес)',
+        dpi: '1300 DPI',
+        silent: true,
+        rechargeable: false,
+        imgUrl: 'https://basket-36.wbbasket.ru/vol7982/part798298/798298937/images/big/1.webp',
+        summary: 'Легкий и доступный вариант для поездок. Легко помещается в карман сумки MacBook Air.',
+        pros: ['Самая низкая цена на WB (от 3 900 ֏)', 'Подключение до 3 устройств', 'Малый вес'],
+        cons: ['Маленький размер для большой ладони']
+      }
+    ];
+
+    let currentFilter = 'all';
+
+    function renderMice(data) {
+      const container = document.getElementById('miceContainer');
+      const tableBody = document.getElementById('matrixTableBody');
+      
+      container.innerHTML = '';
+      tableBody.innerHTML = '';
+
+      if (data.length === 0) {
+        container.innerHTML = `<div class="col-span-full text-center text-slate-400 py-12 text-xs">Модели по запросу не найдены.</div>`;
+        return;
+      }
+
+      data.forEach(mouse => {
+        const cardHtml = `
+          <div class="light-card light-card-hover rounded-3xl p-6 flex flex-col justify-between space-y-5">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-4">
+                <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wider border uppercase ${mouse.badgeClass}">
+                  ${mouse.badge}
+                </span>
+                <span class="text-xs font-bold text-amber-700 bg-amber-50 px-2 py-0.5 rounded-md border border-amber-200">
+                  ★ ${mouse.macRating}
+                </span>
+              </div>
+
+              <div class="text-center py-4 bg-slate-50/80 rounded-2xl border border-slate-100 mb-4 h-36 flex flex-col items-center justify-center overflow-hidden p-2">
+                <img src="${mouse.imgUrl}" alt="${mouse.name}" class="max-h-24 w-auto object-contain mx-auto rounded-lg transition-transform duration-200 hover:scale-105" loading="lazy" />
+                <h3 class="text-base font-bold text-slate-900 mt-2">${mouse.name}</h3>
+                <p class="text-[11px] text-sky-700 font-semibold">${mouse.btVersion}</p>
+              </div>
+
+              <p class="text-slate-600 text-xs leading-relaxed mb-4">
+                ${mouse.summary}
+              </p>
+
+              <div class="space-y-1.5 text-[11px] bg-slate-50 p-3 rounded-xl border border-slate-100 mb-4 text-slate-600">
+                <div class="flex justify-between">
+                  <span class="text-slate-400">Питание:</span>
+                  <span class="font-medium text-slate-900">${mouse.battery}</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-slate-400">Сенсор:</span>
+                  <span class="font-medium text-slate-900">${mouse.dpi}</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-slate-400">Клики:</span>
+                  <span class="font-semibold text-emerald-700">${mouse.silent ? '🤫 Бесшумные' : 'Обычные'}</span>
+                </div>
+              </div>
+
+              <div class="space-y-2 text-xs">
+                <div class="space-y-1">
+                  <span class="text-emerald-700 font-semibold flex items-center gap-1 text-[11px]">✓ Плюсы для Mac:</span>
+                  <ul class="list-disc list-inside text-slate-600 space-y-0.5 text-[11px] pl-1">
+                    ${mouse.pros.map(p => `<li>${p}</li>`).join('')}
+                  </ul>
+                </div>
+                <div class="space-y-1 pt-1">
+                  <span class="text-rose-700 font-semibold flex items-center gap-1 text-[11px]">✕ Минусы:</span>
+                  <ul class="list-disc list-inside text-slate-500 space-y-0.5 text-[11px] pl-1">
+                    ${mouse.cons.map(c => `<li>${c}</li>`).join('')}
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="pt-4 border-t border-slate-100 space-y-2 text-xs">
+              <div class="flex justify-between items-center">
+                <span class="text-slate-500">Маркетплейсы (WB / Ozon):</span>
+                <span class="text-emerald-700 font-bold text-sm">${mouse.priceMarket.toLocaleString()} ֏</span>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-slate-500">Магазины Еревана:</span>
+                <span class="text-orange-700 font-bold text-sm">${mouse.priceStore.toLocaleString()} ֏</span>
+              </div>
+              <div class="text-[10px] text-slate-400 truncate" title="${mouse.storeList}">
+                📍 ${mouse.storeList}
+              </div>
+            </div>
+          </div>
+        `;
+        container.innerHTML += cardHtml;
+
+        const rowHtml = `
+          <tr class="hover:bg-slate-50/80 transition-colors">
+            <td class="py-3.5 px-5 font-bold text-slate-900 flex items-center gap-3">
+              <img src="${mouse.imgUrl}" alt="${mouse.name}" class="w-8 h-8 object-contain rounded bg-white p-0.5 border border-slate-200" />
+              <div>
+                ${mouse.name}
+                <div class="text-[10px] font-normal text-slate-400">${mouse.dpi}</div>
+              </div>
+            </td>
+            <td class="py-3.5 px-5 text-emerald-700 font-bold">${mouse.priceMarket.toLocaleString()} ֏</td>
+            <td class="py-3.5 px-5 text-orange-700 font-bold">${mouse.priceStore.toLocaleString()} ֏</td>
+            <td class="py-3.5 px-5 text-sky-700 font-medium">${mouse.btVersion}</td>
+            <td class="py-3.5 px-5 text-slate-600">${mouse.battery}</td>
+            <td class="py-3.5 px-5">
+              <span class="px-2 py-0.5 rounded text-[11px] font-bold bg-amber-50 text-amber-800 border border-amber-200">
+                ★ ${mouse.macRating}
+              </span>
+            </td>
+          </tr>
+        `;
+        tableBody.innerHTML += rowHtml;
+      });
+    }
+
+    function filterMice(type) {
+      currentFilter = type;
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.remove('bg-sky-600', 'text-white', 'shadow-sm');
+        btn.classList.add('bg-slate-100', 'text-slate-600', 'border', 'border-slate-200');
+      });
+      const activeBtn = document.getElementById(`btn-${type}`);
+      activeBtn.classList.remove('bg-slate-100', 'text-slate-600', 'border-slate-200');
+      activeBtn.classList.add('bg-sky-600', 'text-white', 'shadow-sm');
+      applySearchAndFilter();
+    }
+
+    function applySearchAndFilter() {
+      const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+      let filtered = miceData.filter(mouse => {
+        const matchesSearch = mouse.name.toLowerCase().includes(searchTerm) || 
+                              mouse.summary.toLowerCase().includes(searchTerm) ||
+                              mouse.storeList.toLowerCase().includes(searchTerm);
+        let matchesFilter = true;
+        if (currentFilter === 'rechargeable') {
+          matchesFilter = mouse.rechargeable;
+        } else if (currentFilter === 'silent') {
+          matchesFilter = mouse.silent;
+        }
+        return matchesSearch && matchesFilter;
+      });
+
+      const sortBy = document.getElementById('sortSelect').value;
+      if (sortBy === 'rating') {
+        filtered.sort((a, b) => b.macRating - a.macRating);
+      } else if (sortBy === 'price-market-asc') {
+        filtered.sort((a, b) => a.priceMarket - b.priceMarket);
+      } else if (sortBy === 'price-store-asc') {
+        filtered.sort((a, b) => a.priceStore - b.priceStore);
+      }
+
+      renderMice(filtered);
+    }
+
+    function sortMice() {
+      applySearchAndFilter();
+    }
+
+    document.getElementById('searchInput').addEventListener('input', applySearchAndFilter);
+    applySearchAndFilter();
+  </script>
+</body>
+</html>
